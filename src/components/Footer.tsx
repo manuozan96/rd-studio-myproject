@@ -1,5 +1,10 @@
 import Link from "next/link";
 import MainGral from "./MainGral";
+import Image from "next/image";
+import arrowright from "../../public/arrowright.svg";
+import facebook from "../../public/facebook.svg";
+import twitter from "../../public/twitter.svg";
+import instagram from "../../public/instagram.svg";
 
 const Footer = () => {
   return (
@@ -30,7 +35,7 @@ const Footer = () => {
                     <div className="w-[30px] h-[30px]">
                       Home
                       <div className="pl-44 ml-40 -mt-8">
-                        <img src="/arrowright.svg" />
+                        <Image alt="arrow" src={arrowright} />
                       </div>
                     </div>
                   </div>
@@ -44,7 +49,7 @@ const Footer = () => {
                     <div className="w-[30px] h-[30px]">
                       Proyectos
                       <div className="pl-44 ml-40 -mt-8">
-                        <img src="/arrowright.svg" />
+                        <Image alt="arrow" src={arrowright} />
                       </div>
                     </div>
                   </div>
@@ -58,7 +63,7 @@ const Footer = () => {
                     <div className="w-[30px] h-[30px]">
                       Nosotros
                       <div className="pl-44 ml-40 -mt-8">
-                        <img src="/arrowright.svg" />
+                        <Image alt="arrow" src={arrowright} />
                       </div>
                     </div>
                   </div>
@@ -72,7 +77,7 @@ const Footer = () => {
                     <div className="w-[30px] h-[30px]">
                       Contacto
                       <div className="pl-44 ml-40 -mt-8">
-                        <img src="/arrowright.svg" />
+                        <Image alt="arrow" src={arrowright} />
                       </div>
                     </div>
                   </div>
@@ -127,12 +132,13 @@ const Footer = () => {
             </div>
             <div className="self-stretch px-7 justify-start items-start gap-[22px] inline-flex">
               <div className="w-[30px] h-[30px] relative">
-                <img src="/facebook.svg" />
+                <Image alt="arrow" src={facebook} />
               </div>
               <div className="w-[30px] h-[30px] relative">
-                <img src="/instagram.svg" />
+                <Image alt="arrow" src={instagram} />
               </div>
-              <img src="/twitter.svg" />
+              <Image alt="arrow" src={twitter} />
+
               <div className="w-[30px] h-[30px] px-[7.50px] pt-[9px] pb-[8.77px] rounded-[10px] border-2 border-gray-200 justify-center items-center flex" />
             </div>
           </div>

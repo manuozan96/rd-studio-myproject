@@ -1,5 +1,4 @@
 import React from "react";
-import CustomText from "./CustomText";
 
 interface TextProps {
   children: React.ReactNode;
