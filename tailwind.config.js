@@ -8,9 +8,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "header-interna": "url('/HeaderInterna.png')",
+        "header-interna": "url('/Header-Interna.png')",
+        contacto: "url('/BackContacto.png')",
         back: "linear-gradient(135deg, #fbdada 0%, #f7e4e4 14.6%, #f5ecec 27.7%, #f2f5f5 39.8%, #f2f5f5 50.5%, #f3f7f7 59.6%, #f6fafa 68.2%, #fbfefe 76.5%, #fff 84.5%)",
-        nav: "linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0) 80%)"
+        nav: "linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, 0) 80%)",
       },
 
       spacing: {
@@ -22,6 +23,7 @@ module.exports = {
         "red-200": "#fca5a5",
         "custom-gray": "#EDEDED",
         "off-white": "#F8F8F8",
+        "custom-green": "#0A0E0B",
       },
       opacity: {
         20: "0.2",
@@ -30,6 +32,7 @@ module.exports = {
         sans: ['"DM Sans"', "sans-serif"],
         "dm-sans": ["DM Sans", "sans-serif"],
         "instrument-serif": ["Instrument Serif", "serif"],
+        body: ["dm-sans", "sans-serif"],
       },
     },
     fontSize: {
@@ -41,15 +44,21 @@ module.exports = {
       "h2-mobile": "32px",
       "h3-desktop": "64px",
       "24px": "24px",
+      36: "36px",
     },
     letterSpacing: {
+      "0.1em": "0.1em",
       wider: "0.2em", // Adjusted for 20% letter spacing
     },
     fontWeight: {
       400: "400",
+      400: 400,
+      300: 300,
     },
     lineHeight: {
       65: "65px",
+      "23.44px": "23.44px",
+      46.87: "46.87",
     },
     textAlign: {
       left: "left",

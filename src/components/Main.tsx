@@ -10,12 +10,11 @@ interface MainProps {
 
 const Main = ({ children }: MainProps) => {
   return (
-    <div className="relative min-h-screen flex justify-center items-center ">
+    <div className="min-h-screen flex justify-center items-center">
       <div className="bg-back w-[430px] h-[932px] z-50">
-        <div className="w-[430px] h-[932px]  overflow-y-auto no-scrollbar">
+        <div className="w-[430px] h-[932px] overflow-hidden no-scrollbar">
           <Navbar />
           <div className="bg-transparent relative z-10">{children}</div>
-          <Button />
           <Footer />
         </div>
       </div>

@@ -5,10 +5,9 @@ import HeaderContacto from "./HeaderContacto";
 
 const ContactoComponent = () => {
   return (
-    <ContactoLayout>
+    <Main>
       <HeaderContacto />
-      <Form />
-    </ContactoLayout>
+    </Main>
   );
 };
 
