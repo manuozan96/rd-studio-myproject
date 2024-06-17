@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.bg-rojo {
+  background-color: #f94940;
+}
+
+.text-off-white {
+  color: #f5f5f5;
+}
+
+.font-desktop-cta {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 414px) {
+  .categories {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 413px) {
+  .categories1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 318px) {
+  .restaurant {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@layer utilities {
+  .text-dm-sans {
+    @apply font-dm-sans text-[24px] tracking-wider text-custom-gray;
+  }
+}
